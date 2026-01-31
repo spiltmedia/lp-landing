@@ -11,7 +11,7 @@ export default function HeroSection({ calendarLink }) {
   ];
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-teal-50 via-white to-orange-50">
+    <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-orange-50">
       {/* Subtle pattern overlay */}
       <div className="absolute inset-0 opacity-[0.03]" style={{
         backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
@@ -128,8 +128,8 @@ export default function HeroSection({ calendarLink }) {
           >
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?w=800&q=80"
-                alt="Professional lice treatment clinic"
+                src="https://liceliftersnassaucounty.com/wp-content/uploads/2025/08/cute-girl-in-white-dress-combing-brown-hair-scaled.webp"
+                alt="Happy child after lice treatment"
                 className="w-full h-[400px] lg:h-[500px] object-cover"
               />
               {/* Overlay card */}

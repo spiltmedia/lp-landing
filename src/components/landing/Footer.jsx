@@ -28,7 +28,7 @@ export default function Footer() {
               </a>
               <div className="flex items-start gap-3">
                 <MapPin className="h-4 w-4 mt-1" />
-                <span>Wantagh, NY<br />Serving Nassau County</span>
+                <span>1400A Wantagh Ave<br />Wantagh, NY 11793</span>
               </div>
             </div>
           </div>
@@ -40,9 +40,10 @@ export default function Footer() {
               <div className="flex items-center gap-3">
                 <Clock className="h-4 w-4" />
                 <div>
-                  <p>Call for availability</p>
+                  <p>Monday to Sunday</p>
+                  <p>9:30 AM - 8:00 PM</p>
                   <p className="text-teal-400 font-medium mt-1">
-                    Same-day appointments often available
+                    Same-day appointments available
                   </p>
                 </div>
               </div>
