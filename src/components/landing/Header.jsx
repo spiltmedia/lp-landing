@@ -7,7 +7,7 @@ export default function Header() {
         <div className="flex justify-center">
           <img 
             src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/697de8f0e16bb9fad3ffd3cb/95be42d30_LiceLifters_Horizontal_original-01.png"
-            alt="Lice Lifters Of Nassau County"
+            alt="Lice Lifters Of Omaha"
             className="h-16 md:h-20 w-auto"
           />
         </div>

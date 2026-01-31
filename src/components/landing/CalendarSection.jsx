@@ -6,7 +6,7 @@ export default function CalendarSection() {
   useEffect(() => {
     // Load the GHL embed script
     const script = document.createElement('script');
-    script.src = 'https://app.liceliftersnassaucounty.com/js/form_embed.js';
+    script.src = 'https://app.liceliftersomaha.com/js/form_embed.js';
     script.type = 'text/javascript';
     document.body.appendChild(script);
 
@@ -43,16 +43,16 @@ export default function CalendarSection() {
           transition={{ delay: 0.2 }}
         >
           <iframe 
-            src="https://app.liceliftersnassaucounty.com/widget/booking/cWH4ZvjeFan0Uk3occFG" 
+            src="https://app.liceliftersomaha.com/widget/booking/dmzG5tfjUsHRICNYkTrU" 
             style={{ width: '100%', border: 'none', overflow: 'hidden', minHeight: '600px' }} 
             scrolling="no" 
-            id="OfGD4aNS2gNHbtQA96TH_1769861133573"
+            id="d8cGvQuRsa1CWoYStHaP_1769865119200"
             title="Book Appointment"
           />
         </motion.div>
 
         <p className="text-center text-sm text-gray-500 mt-6">
-          Or call us directly at <a href="tel:+15163477156" className="text-blue-600 font-semibold hover:text-blue-700">(516) 347-7156</a>
+          Or call us directly at <a href="tel:+14027414425" className="text-blue-600 font-semibold hover:text-blue-700">(402) 741-4425</a>
         </p>
       </div>
     </section>

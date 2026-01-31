@@ -43,14 +43,14 @@ export default function HeroSection() {
             </motion.div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-[1.1] tracking-tight">
-              Nassau County's
+              Omaha's
               <span className="text-teal-600"> Trusted</span>
               <br />
               Lice Removal Experts
             </h1>
 
             <p className="mt-6 text-lg sm:text-xl text-gray-600 leading-relaxed max-w-xl">
-              Professional, all-natural lice treatment in Wantagh, NY. Our safe, chemical-free method is 99.9% effective and gets your family back to normal in one visit.
+              Professional, all-natural lice treatment in Omaha, NE. Our safe, chemical-free method is 99.9% effective and gets your family back to normal in one visit.
             </p>
 
             {/* Highlights */}
@@ -90,8 +90,8 @@ export default function HeroSection() {
                 size="lg"
                 className="border-2 border-gray-200 hover:border-teal-600 hover:text-teal-600 px-8 py-6 text-lg font-medium rounded-xl transition-all duration-300"
               >
-                <a href="tel:+15163477156">
-                  Call (516) 347-7156
+                <a href="tel:+14027414425">
+                  Call (402) 741-4425
                 </a>
               </Button>
             </motion.div>
@@ -115,7 +115,7 @@ export default function HeroSection() {
               </div>
               <div className="text-sm">
                 <span className="font-semibold text-gray-900">Trusted by families</span>
-                <span className="text-gray-500"> across Nassau County</span>
+                <span className="text-gray-500"> across Omaha</span>
               </div>
             </motion.div>
           </motion.div>
