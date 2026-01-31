@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { CheckCircle2, Calendar, Phone, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { createPageUrl } from './utils';
+import { createPageUrl } from '../utils';
 import { Link } from 'react-router-dom';
 
 export default function ThankYou() {
