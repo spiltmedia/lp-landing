@@ -25,12 +25,12 @@ export default function FinalCTA({ calendarLink }) {
           </div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6">
-            Ready to Be
-            <span className="text-teal-400"> Lice-Free</span>?
+            Schedule Your Appointment at
+            <span className="text-teal-400"> Lice Lifters Of Nassau County</span>
           </h2>
           
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-10">
-            Don't spend another sleepless night. Book your appointment now and let us take care of the rest. Relief is just one visit away.
+            Don't waste money on ineffective over-the-counter treatments. Our professional, chemical-free lice removal gets results in one visit. Serving Wantagh and all of Nassau County.
           </p>
 
           {/* CTA Buttons */}
@@ -51,9 +51,9 @@ export default function FinalCTA({ calendarLink }) {
               size="lg"
               className="border-2 border-white/30 bg-white/5 text-white hover:bg-white hover:text-gray-900 px-10 py-7 text-xl font-semibold rounded-xl transition-all duration-300"
             >
-              <a href="tel:+15551234567">
+              <a href="tel:+15168538242">
                 <Phone className="mr-3 h-6 w-6" />
-                (555) 123-4567
+                (516) 853-8242
               </a>
             </Button>
           </div>
@@ -62,18 +62,18 @@ export default function FinalCTA({ calendarLink }) {
           <div className="flex flex-col sm:flex-row justify-center items-center gap-6 text-gray-400">
             <div className="flex items-center gap-2">
               <MapPin className="h-5 w-5 text-teal-400" />
-              <span>123 Main Street, Suite 100, Your City</span>
+              <span>Serving Wantagh, NY & Nassau County</span>
             </div>
             <div className="hidden sm:block w-1 h-1 bg-gray-600 rounded-full" />
             <div className="flex items-center gap-2">
               <Clock className="h-5 w-5 text-teal-400" />
-              <span>Mon-Sat: 9AM - 7PM | Sun: 10AM - 5PM</span>
+              <span>Same-Day Appointments Available</span>
             </div>
           </div>
 
           {/* Trust line */}
           <p className="mt-8 text-sm text-gray-500">
-            ✓ 30-Day Guarantee • ✓ FDA-Cleared Treatment • ✓ 500+ Happy Families
+            ✓ 99.9% Effective • ✓ All-Natural & Non-Toxic • ✓ Certified Technicians
           </p>
         </motion.div>
       </div>

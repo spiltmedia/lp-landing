@@ -9,30 +9,30 @@ export default function TestimonialsSection() {
   const testimonials = [
     {
       name: "Sarah M.",
-      role: "Mother of 3",
+      role: "Wantagh Mom",
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&q=80",
-      quote: "After weeks of trying everything from the drugstore, I was at my wit's end. One visit here and we were done! The kids actually enjoyed it - they watched Frozen while getting treated. Worth every penny.",
+      quote: "After weeks of trying everything from the drugstore, I was at my wit's end. Lice Lifters Of Nassau County got us lice-free in one visit! The staff was professional, gentle, and the chemical-free treatment worked perfectly. Highly recommend!",
       rating: 5
     },
     {
       name: "Jennifer K.",
-      role: "School Nurse",
+      role: "Nassau County Parent",
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&q=80",
-      quote: "I recommend this clinic to every parent who comes to me with a lice case. The professional treatment is so much more effective than OTC products, and they're always so accommodating with appointments.",
+      quote: "I was skeptical at first, but Lice Lifters truly delivered. The all-natural treatment was safe for my daughter, and we were completely lice-free after just one appointment. The staff answered all my questions and made us feel comfortable throughout.",
       rating: 5
     },
     {
       name: "Michael R.",
-      role: "Dad of twins",
+      role: "Local Dad",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&q=80",
-      quote: "Both my daughters got sent home from school with lice. I panicked, but the team here fit us in the same day. Two hours later, both girls were lice-free. The 30-day guarantee gave me peace of mind.",
+      quote: "Both my daughters got sent home from school with lice. I called Lice Lifters and they got us in same day. The certified technicians were thorough and professional. Both girls were completely lice-free in one visit. Thank you!",
       rating: 5
     },
     {
       name: "Amanda T.",
-      role: "Working Mom",
+      role: "Busy Mom",
       image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&q=80",
-      quote: "I couldn't take more time off work to deal with lice. They had evening appointments available and solved our problem in one visit. No more nightly combing sessions! Lifesavers.",
+      quote: "Best decision I made! Instead of wasting more money on ineffective drugstore treatments, I took my son to Lice Lifters in Wantagh. One visit and we were done. The staff was kind, knowledgeable, and the results were guaranteed. Worth every penny!",
       rating: 5
     }
   ];

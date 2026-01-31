@@ -8,9 +8,9 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <h3 className="text-xl font-bold text-white mb-4">Lice Removal Clinic</h3>
+            <h3 className="text-xl font-bold text-white mb-4">Lice Lifters Of Nassau County</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Professional lice treatment using FDA-cleared technology. One visit, guaranteed results.
+              Professional, all-natural lice removal in Wantagh, NY. Safe, non-toxic, and 99.9% effective. Serving Nassau County families.
             </p>
           </div>
 
@@ -18,17 +18,17 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">Contact Us</h4>
             <div className="space-y-3 text-gray-400 text-sm">
-              <a href="tel:+15551234567" className="flex items-center gap-3 hover:text-teal-400 transition-colors">
+              <a href="tel:+15168538242" className="flex items-center gap-3 hover:text-teal-400 transition-colors">
                 <Phone className="h-4 w-4" />
-                (555) 123-4567
+                (516) 853-8242
               </a>
-              <a href="mailto:info@liceremoval.com" className="flex items-center gap-3 hover:text-teal-400 transition-colors">
+              <a href="https://liceliftersnassaucounty.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-teal-400 transition-colors">
                 <Mail className="h-4 w-4" />
-                info@liceremoval.com
+                liceliftersnassaucounty.com
               </a>
               <div className="flex items-start gap-3">
                 <MapPin className="h-4 w-4 mt-1" />
-                <span>123 Main Street, Suite 100<br />Your City, ST 12345</span>
+                <span>Wantagh, NY<br />Serving Nassau County</span>
               </div>
             </div>
           </div>
@@ -40,20 +40,19 @@ export default function Footer() {
               <div className="flex items-center gap-3">
                 <Clock className="h-4 w-4" />
                 <div>
-                  <p>Mon - Sat: 9:00 AM - 7:00 PM</p>
-                  <p>Sunday: 10:00 AM - 5:00 PM</p>
+                  <p>Call for availability</p>
+                  <p className="text-teal-400 font-medium mt-1">
+                    Same-day appointments often available
+                  </p>
                 </div>
               </div>
-              <p className="text-teal-400 font-medium mt-2">
-                Same-day appointments available
-              </p>
             </div>
           </div>
         </div>
 
         {/* Bottom */}
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-500 text-sm">
-          <p>© {new Date().getFullYear()} Lice Removal Clinic. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Lice Lifters Of Nassau County. All rights reserved.</p>
         </div>
       </div>
     </footer>

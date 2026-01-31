@@ -9,8 +9,8 @@ import FinalCTA from '@/components/landing/FinalCTA';
 import Footer from '@/components/landing/Footer';
 
 export default function Home() {
-  // Replace this with your actual GHL calendar link
-  const calendarLink = "https://your-ghl-calendar-link.com";
+  // Lice Lifters Of Nassau County booking link
+  const calendarLink = "https://app.liceliftersnassaucounty.com/widget/bookings/head-check-and-treatment";
 
   return (
     <div className="min-h-screen bg-white">

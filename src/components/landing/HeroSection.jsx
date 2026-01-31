@@ -6,8 +6,8 @@ import { CheckCircle2, Clock, Shield, Calendar } from 'lucide-react';
 export default function HeroSection({ calendarLink }) {
   const highlights = [
     { icon: Clock, text: "Same-Day Appointments" },
-    { icon: Shield, text: "100% Guaranteed Results" },
-    { icon: CheckCircle2, text: "Single Treatment Solution" },
+    { icon: Shield, text: "99.9% Effective" },
+    { icon: CheckCircle2, text: "Chemical-Free Treatment" },
   ];
 
   return (
@@ -40,14 +40,14 @@ export default function HeroSection({ calendarLink }) {
             </motion.div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-[1.1] tracking-tight">
-              Lice-Free in
-              <span className="text-teal-600"> One Visit.</span>
+              Nassau County's
+              <span className="text-teal-600"> Trusted</span>
               <br />
-              <span className="text-gray-600">Guaranteed.</span>
+              Lice Removal Experts
             </h1>
 
             <p className="mt-6 text-lg sm:text-xl text-gray-600 leading-relaxed max-w-xl">
-              Stop the stress and endless home treatments. Our clinically-proven method eliminates lice and eggs in a single, comfortable session. Get your family back to normal today.
+              Professional, all-natural lice treatment in Wantagh, NY. Our safe, chemical-free method is 99.9% effective and gets your family back to normal in one visit.
             </p>
 
             {/* Highlights */}
@@ -89,8 +89,8 @@ export default function HeroSection({ calendarLink }) {
                 size="lg"
                 className="border-2 border-gray-200 hover:border-teal-600 hover:text-teal-600 px-8 py-6 text-lg font-medium rounded-xl transition-all duration-300"
               >
-                <a href="tel:+15551234567">
-                  Call (555) 123-4567
+                <a href="tel:+15168538242">
+                  Call (516) 853-8242
                 </a>
               </Button>
             </motion.div>
@@ -113,8 +113,8 @@ export default function HeroSection({ calendarLink }) {
                 ))}
               </div>
               <div className="text-sm">
-                <span className="font-semibold text-gray-900">500+ families</span>
-                <span className="text-gray-500"> treated this month</span>
+                <span className="font-semibold text-gray-900">Trusted by families</span>
+                <span className="text-gray-500"> across Nassau County</span>
               </div>
             </motion.div>
           </motion.div>
@@ -151,8 +151,8 @@ export default function HeroSection({ calendarLink }) {
                     <p className="text-sm text-gray-600">4.9/5 from 200+ reviews</p>
                   </div>
                   <div className="text-right">
-                    <p className="text-2xl font-bold text-teal-600">98%</p>
-                    <p className="text-xs text-gray-500">Success Rate</p>
+                    <p className="text-2xl font-bold text-teal-600">99.9%</p>
+                    <p className="text-xs text-gray-500">Effective</p>
                   </div>
                 </div>
               </motion.div>
@@ -165,7 +165,7 @@ export default function HeroSection({ calendarLink }) {
               transition={{ delay: 1 }}
               className="absolute -top-4 -right-4 bg-teal-600 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg"
             >
-              ✓ FDA Cleared
+              ✓ All Natural
             </motion.div>
           </motion.div>
         </div>

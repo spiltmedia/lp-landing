@@ -15,19 +15,19 @@ export default function FAQSection() {
     },
     {
       question: "Is the treatment safe for children?",
-      answer: "Absolutely! Our FDA-cleared device uses controlled heated air, similar to a blow dryer. It's completely chemical-free and safe for children of all ages. Kids often describe it as a warm, relaxing scalp massage. We even have movies and tablets to keep them entertained!"
+      answer: "Absolutely! Our all-natural, non-toxic treatment method is completely safe for children of all ages. We don't use harsh chemicals or pesticides. Our certified technicians are experienced in working with kids and make the process as comfortable as possible."
     },
     {
       question: "What about 'super lice' that are resistant to OTC treatments?",
-      answer: "Our heated air treatment works differently than chemical treatments. It dehydrates lice and eggs regardless of any chemical resistance. This is why our method is 98% effective even against so-called 'super lice.'"
+      answer: "Our professional treatment method is 99.9% effective at eliminating all types of lice, including those resistant to over-the-counter chemical treatments. Our natural approach targets lice physically, not chemically, making resistance impossible."
     },
     {
-      question: "Do you offer a guarantee?",
-      answer: "Yes! We offer a 30-day guarantee. If lice return within 30 days of treatment (which is rare), we'll retreat at no additional charge. We're confident in our results."
+      question: "Where are you located?",
+      answer: "We're conveniently located in Wantagh, NY and proudly serve families throughout Nassau County and neighboring communities. Call us at (516) 853-8242 for directions or to schedule your appointment."
     },
     {
-      question: "How much does treatment cost?",
-      answer: "We offer flat-rate pricing per person, regardless of hair length or infestation severity. Please call us or book online to see current pricing. We believe in transparent pricing with no surprise charges."
+      question: "How quickly can I get an appointment?",
+      answer: "We understand that lice is urgent! We offer same-day appointments when available. Call us at (516) 853-8242 and our team will work to get you in as quickly as possible, often within 24 hours."
     },
     {
       question: "Do I need to do anything before my appointment?",

@@ -14,39 +14,39 @@ import {
 export default function BenefitsSection({ calendarLink }) {
   const benefits = [
     {
-      icon: Clock,
-      title: "One Treatment. Done.",
-      description: "No more repeated treatments or weeks of combing. Our single-session approach gets the job done right the first time.",
+      icon: Sparkles,
+      title: "All-Natural & Non-Toxic",
+      description: "Our safe, chemical-free treatment method is gentle on your family while being tough on lice. No harsh pesticides or chemicals.",
       color: "from-teal-500 to-teal-600"
     },
     {
       icon: ShieldCheck,
-      title: "30-Day Guarantee",
-      description: "If lice return within 30 days, we'll retreat at no additional cost. That's our promise to you.",
+      title: "99.9% Effective",
+      description: "Our proven professional treatment process eliminates lice and nits completely in just one visit to our Wantagh clinic.",
       color: "from-blue-500 to-blue-600"
     },
     {
-      icon: Sparkles,
-      title: "Chemical-Free Solution",
-      description: "Our FDA-cleared device uses controlled heated air. Safe for kids, effective on super lice.",
+      icon: Clock,
+      title: "Fast & Convenient",
+      description: "We offer same-day appointments and swift treatment that fits your busy schedule. Get back to normal quickly.",
       color: "from-purple-500 to-purple-600"
     },
     {
       icon: Heart,
-      title: "Comfortable Experience",
-      description: "Kids watch movies during treatment. Most describe it as a warm, relaxing scalp massage.",
+      title: "Certified Technicians",
+      description: "Our experienced, professional staff conducts thorough examinations and meticulous removal of both lice and nits.",
       color: "from-pink-500 to-pink-600"
     },
     {
-      icon: DollarSign,
-      title: "Flat-Rate Pricing",
-      description: "No surprises. One price per head regardless of infestation severity or hair length.",
+      icon: Calendar,
+      title: "Serving Nassau County",
+      description: "Conveniently located in Wantagh, NY, we serve families throughout Nassau County and neighboring communities.",
       color: "from-green-500 to-green-600"
     },
     {
-      icon: Calendar,
-      title: "Same-Day Availability",
-      description: "We understand the urgency. Most clients are seen within 24 hours of calling.",
+      icon: DollarSign,
+      title: "Complete Peace of Mind",
+      description: "Our comprehensive treatment ensures lasting results. We're committed to excellence and your family's comfort.",
       color: "from-orange-500 to-orange-600"
     }
   ];
@@ -63,11 +63,11 @@ export default function BenefitsSection({ calendarLink }) {
         >
           <span className="text-teal-600 font-semibold text-sm uppercase tracking-wider">Why Choose Us</span>
           <h2 className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-            The Smarter Way to
-            <span className="text-teal-600"> Get Rid of Lice</span>
+            Why Choose
+            <span className="text-teal-600"> Lice Lifters Of Nassau County</span>
           </h2>
           <p className="mt-4 text-lg text-gray-600">
-            Forget everything you've tried. Our professional approach eliminates the guesswork and frustration.
+            Serving Wantagh and surrounding communities with professional, chemical-free lice removal since day one.
           </p>
         </motion.div>
 

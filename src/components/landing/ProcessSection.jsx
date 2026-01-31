@@ -14,23 +14,23 @@ export default function ProcessSection() {
     {
       icon: Zap,
       step: "02",
-      title: "Treatment",
-      description: "Our FDA-cleared device dehydrates lice and eggs with controlled warm air. Relax and watch a movie!",
+      title: "Professional Treatment",
+      description: "Our certified technicians use safe, all-natural methods to eliminate lice and nits completely.",
       duration: "60-90 min"
     },
     {
       icon: CheckCircle,
       step: "03",
-      title: "Comb-Out",
-      description: "We carefully comb through every section to remove all dehydrated lice and eggs.",
-      duration: "15-30 min"
+      title: "Thorough Removal",
+      description: "Meticulous comb-out of every section to ensure complete removal of all lice and nits.",
+      duration: "30-45 min"
     },
     {
       icon: PartyPopper,
       step: "04",
       title: "Lice-Free!",
-      description: "Leave our clinic completely lice-free with tips to prevent re-infestation. Guaranteed.",
-      duration: "Go celebrate!"
+      description: "Return to your daily routine with complete peace of mind. We've got you covered!",
+      duration: "Back to normal!"
     }
   ];
 
@@ -46,11 +46,11 @@ export default function ProcessSection() {
         >
           <span className="text-teal-600 font-semibold text-sm uppercase tracking-wider">Our Process</span>
           <h2 className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-            From Itchy to
-            <span className="text-teal-600"> Lice-Free</span> in One Visit
+            The Lice Lifters
+            <span className="text-teal-600"> Treatment Process</span>
           </h2>
           <p className="mt-4 text-lg text-gray-600">
-            A simple, comfortable process that takes about 90 minutes from start to finish.
+            Our proven, professional process eliminates lice completely in a single visit to our Wantagh clinic.
           </p>
         </motion.div>
 
