@@ -5,7 +5,7 @@ import { Award, BadgeCheck, Heart, Sparkles } from 'lucide-react';
 export default function TrustBar() {
   const trustItems = [
     { icon: BadgeCheck, label: "Licensed Technicians" },
-    { icon: Award, label: "FDA Cleared Device" },
+    { icon: Award, label: "No Heat Treatment" },
     { icon: Heart, label: "Kid-Friendly Process" },
     { icon: Sparkles, label: "Non-Toxic Treatment" },
   ];
