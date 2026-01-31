@@ -3,7 +3,10 @@ import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { CheckCircle2, Clock, Shield, Calendar } from 'lucide-react';
 
-export default function HeroSection({ calendarLink }) {
+export default function HeroSection() {
+  const scrollToCalendar = () => {
+    document.getElementById('book-appointment')?.scrollIntoView({ behavior: 'smooth' });
+  };
   const highlights = [
     { icon: Clock, text: "Same-Day Appointments" },
     { icon: Shield, text: "99.9% Effective" },
@@ -74,14 +77,12 @@ export default function HeroSection({ calendarLink }) {
               className="mt-10 flex flex-col sm:flex-row gap-4"
             >
               <Button
-                asChild
+                onClick={scrollToCalendar}
                 size="lg"
                 className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-6 text-lg font-semibold rounded-xl shadow-lg shadow-orange-500/25 hover:shadow-xl hover:shadow-orange-500/30 transition-all duration-300 hover:-translate-y-0.5"
               >
-                <a href={calendarLink} target="_blank" rel="noopener noreferrer">
-                  <Calendar className="mr-2 h-5 w-5" />
-                  Book Your Appointment
-                </a>
+                <Calendar className="mr-2 h-5 w-5" />
+                Book Your Appointment
               </Button>
               <Button
                 asChild

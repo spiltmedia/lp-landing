@@ -11,7 +11,10 @@ import {
   ArrowRight
 } from 'lucide-react';
 
-export default function BenefitsSection({ calendarLink }) {
+export default function BenefitsSection() {
+  const scrollToCalendar = () => {
+    document.getElementById('book-appointment')?.scrollIntoView({ behavior: 'smooth' });
+  };
   const benefits = [
     {
       icon: Sparkles,
@@ -103,14 +106,12 @@ export default function BenefitsSection({ calendarLink }) {
           className="mt-16 text-center"
         >
           <Button
-            asChild
+            onClick={scrollToCalendar}
             size="lg"
             className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-6 text-lg font-semibold rounded-xl shadow-lg shadow-orange-500/25 hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5"
           >
-            <a href={calendarLink} target="_blank" rel="noopener noreferrer">
-              Schedule Your Appointment
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </a>
+            Schedule Your Appointment
+            <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
         </motion.div>
       </div>

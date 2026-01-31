@@ -3,7 +3,10 @@ import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Calendar, Phone, Clock, MapPin } from 'lucide-react';
 
-export default function FinalCTA({ calendarLink }) {
+export default function FinalCTA() {
+  const scrollToCalendar = () => {
+    document.getElementById('book-appointment')?.scrollIntoView({ behavior: 'smooth' });
+  };
   return (
     <section className="py-20 md:py-28 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 relative overflow-hidden">
       {/* Background decoration */}
@@ -36,14 +39,12 @@ export default function FinalCTA({ calendarLink }) {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
             <Button
-              asChild
+              onClick={scrollToCalendar}
               size="lg"
               className="bg-orange-500 hover:bg-orange-600 text-white px-10 py-7 text-xl font-bold rounded-xl shadow-lg shadow-orange-500/30 hover:shadow-xl hover:shadow-orange-500/40 transition-all duration-300 hover:-translate-y-1"
             >
-              <a href={calendarLink} target="_blank" rel="noopener noreferrer">
-                <Calendar className="mr-3 h-6 w-6" />
-                Book Online Now
-              </a>
+              <Calendar className="mr-3 h-6 w-6" />
+              Book Online Now
             </Button>
             <Button
               asChild
