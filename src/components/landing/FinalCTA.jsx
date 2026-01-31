@@ -52,9 +52,9 @@ export default function FinalCTA() {
               size="lg"
               className="border-2 border-white/30 bg-white/5 text-white hover:bg-white hover:text-gray-900 px-10 py-7 text-xl font-semibold rounded-xl transition-all duration-300"
             >
-              <a href="tel:+15168538242">
+              <a href="tel:+15163477156">
                 <Phone className="mr-3 h-6 w-6" />
-                (516) 853-8242
+                (516) 347-7156
               </a>
             </Button>
           </div>

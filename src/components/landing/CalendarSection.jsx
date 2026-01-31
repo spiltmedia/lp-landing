@@ -41,7 +41,6 @@ export default function CalendarSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2 }}
-          className="bg-gray-50 rounded-3xl p-4 md:p-8 shadow-lg border border-gray-100"
         >
           <iframe 
             src="https://app.liceliftersnassaucounty.com/widget/booking/cWH4ZvjeFan0Uk3occFG" 
@@ -53,7 +52,7 @@ export default function CalendarSection() {
         </motion.div>
 
         <p className="text-center text-sm text-gray-500 mt-6">
-          Or call us directly at <a href="tel:+15168538242" className="text-blue-600 font-semibold hover:text-blue-700">(516) 853-8242</a>
+          Or call us directly at <a href="tel:+15163477156" className="text-blue-600 font-semibold hover:text-blue-700">(516) 347-7156</a>
         </p>
       </div>
     </section>

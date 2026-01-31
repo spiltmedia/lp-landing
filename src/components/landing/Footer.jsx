@@ -18,9 +18,9 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">Contact Us</h4>
             <div className="space-y-3 text-gray-400 text-sm">
-              <a href="tel:+15168538242" className="flex items-center gap-3 hover:text-teal-400 transition-colors">
+              <a href="tel:+15163477156" className="flex items-center gap-3 hover:text-teal-400 transition-colors">
                 <Phone className="h-4 w-4" />
-                (516) 853-8242
+                (516) 347-7156
               </a>
               <a href="https://liceliftersnassaucounty.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 hover:text-teal-400 transition-colors">
                 <Mail className="h-4 w-4" />

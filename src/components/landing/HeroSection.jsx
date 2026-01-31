@@ -90,8 +90,8 @@ export default function HeroSection() {
                 size="lg"
                 className="border-2 border-gray-200 hover:border-teal-600 hover:text-teal-600 px-8 py-6 text-lg font-medium rounded-xl transition-all duration-300"
               >
-                <a href="tel:+15168538242">
-                  Call (516) 853-8242
+                <a href="tel:+15163477156">
+                  Call (516) 347-7156
                 </a>
               </Button>
             </motion.div>
