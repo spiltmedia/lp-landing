@@ -62,12 +62,12 @@ export default function FinalCTA({ calendarLink }) {
           <div className="flex flex-col sm:flex-row justify-center items-center gap-6 text-gray-400">
             <div className="flex items-center gap-2">
               <MapPin className="h-5 w-5 text-teal-400" />
-              <span>Serving Wantagh, NY & Nassau County</span>
+              <span>1400A Wantagh Ave, Wantagh, NY 11793</span>
             </div>
             <div className="hidden sm:block w-1 h-1 bg-gray-600 rounded-full" />
             <div className="flex items-center gap-2">
               <Clock className="h-5 w-5 text-teal-400" />
-              <span>Same-Day Appointments Available</span>
+              <span>Mon-Sun: 9:30 AM - 8:00 PM</span>
             </div>
           </div>
 
