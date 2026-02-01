@@ -3,25 +3,7 @@ import React from 'react';
 export default function Layout({ children, currentPageName }) {
   return (
     <>
-      {/* Google Tag Manager */}
-      <script dangerouslySetInnerHTML={{__html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MGFMMG9W');`}} />
-      {/* End Google Tag Manager */}
-      
-      {/* Google tag (gtag.js) */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-THW5WE6N3T"></script>
-      <script dangerouslySetInnerHTML={{__html: `
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-THW5WE6N3T');
-`}} />
-      
-      <style>{`
+        <style>{`
         :root {
           --primary-blue: #2196F3;
           --primary-blue-dark: #1976D2;
@@ -82,12 +64,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         [data-state=open].data-\[state\=open\]\:border-teal-200 { border-color: #BBDEFB !important; }
         [data-state=open].data-\[state\=open\]\:text-teal-600 { color: #1976D2 !important; }
       `}</style>
-      
-      {/* Google Tag Manager (noscript) */}
-      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MGFMMG9W"
-height="0" width="0" style={{display:'none',visibility:'hidden'}}></iframe></noscript>
-      {/* End Google Tag Manager (noscript) */}
-      
+
       <div className="min-h-screen">
         {children}
       </div>
